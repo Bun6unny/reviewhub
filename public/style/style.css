@@ -1,6 +1,18 @@
 :root{
     --bs-link-color: #f2f2f2;
     --bs-link-hover-color: #f2f2f2;
+    --bs-accordion-active-color: #808080;
+    --bs-accordion-btn-focus-box-shadow:#808080;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 .25rem #757575;
+    border-color: #555555;
+}
+.accordion-button:not(.collapsed) {
+    color: #c0c0c0;
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 .25rem #757575;
 }
 body {
     padding: 0;
@@ -13,7 +25,7 @@ body {
 }
 
 .menu-icons {
-    color: rgb(139, 139, 139);
+    color: rgb(131, 131, 131);
 }
 
 .menu-icons-size {
