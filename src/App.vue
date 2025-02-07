@@ -40,7 +40,7 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/" class="menu-icons nav-link py-3">
+            <router-link to="/rating" class="menu-icons nav-link py-3">
               <i class="menu-icons-size bi bi-star"></i>        
               <span class="menu-label">Рейтинг</span>
             </router-link>

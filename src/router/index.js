@@ -10,6 +10,7 @@ import FAQPage from '../views/FAQPage.vue'
 import ReviewDetail from '../views/ReviewDetail.vue'
 import AboutUsPage from '../views/AboutUsPage.vue'
 import AuthorsPage from '../views/AuthorsPage.vue'
+import RatingPage from '../views/RatingPage.vue'
 
 const routes = [
   { path: '/', component: MainPage },
@@ -23,6 +24,7 @@ const routes = [
   { path: '/review/:id/', component: ReviewDetail},
   { path: '/about_us', component: AboutUsPage},
   { path: '/authors', component: AuthorsPage},
+  { path: '/rating', component: RatingPage},
 ]
 
 const router = createRouter({

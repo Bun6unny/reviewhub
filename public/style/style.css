@@ -3,6 +3,7 @@
     --bs-link-hover-color: #f2f2f2;
     --bs-accordion-active-color: #808080;
     --bs-accordion-btn-focus-box-shadow:#808080;
+    --bs-table-bg: #020202;
 }
 .form-control:focus{
     box-shadow: 0 0 0 .25rem #757575;
@@ -451,4 +452,9 @@ template {
     color: gold;
     margin: 2px;
 }
-
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-bg-type: #292929;
+}
+.table>:not(caption)>*>* {
+    background-color: #252525;
+}
