@@ -1,4 +1,7 @@
-/* styles by vladbun */
+:root{
+    --bs-link-color: #f2f2f2;
+    --bs-link-hover-color: #f2f2f2;
+}
 body {
     padding: 0;
     margin: 0;
@@ -133,9 +136,6 @@ body {
         border-radius: 12px;
     }
 }
-/* styles by vladbun */
-
-/* styles by pvltrsv */
 .callback {
     display: flex;
     flex-direction: row;
@@ -414,9 +414,7 @@ h1 {
 template {
     padding-right: 40px;
 }
-/* styles by pvltrsv */
 
-/* styles by uglyov */
 .review-detail {
     text-align: center;
     padding: 20px;
@@ -442,5 +440,3 @@ template {
     margin: 2px;
 }
 
-
-/* styles by uglyov */
