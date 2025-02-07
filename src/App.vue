@@ -63,7 +63,7 @@
 
     <nav class="navbar navbar-dark bg-dark bg-review ms-10 mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="@/assets/rev-logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="/"><img src="@/assets/rev-logo.png" alt="logo"></a>
       </div>
     </nav>
 
