@@ -10,7 +10,7 @@ const routes = [
   { path: '/news', component: NewsPage },
   { path: '/news/open1', component: NewsOpen1 },
   { path: '/news/open2', component: NewsOpen2 },
-  { path: '/review/:id', component: ReviewDetail}
+  { path: '/review/:id/', component: ReviewDetail}
 ]
 
 const router = createRouter({
