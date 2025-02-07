@@ -11,7 +11,7 @@ const openReview = (id) => {
 
 <template>
   <div>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
       <div v-for="review in reviews" :key="review.id" class="col">
         <div class="card bg-review custom-card" @click="openReview(review.id)">
           <img :src="review.img" class="card-img-top" alt="Обложка">
@@ -33,5 +33,11 @@ const openReview = (id) => {
 
 .custom-card:hover {
   transform: scale(1.05);
+}
+
+.card-img-top{
+  width: 100%;
+  height: 270px;
+  border-radius: 15px!important;
 }
 </style>
