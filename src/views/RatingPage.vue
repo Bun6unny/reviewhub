@@ -1,9 +1,19 @@
 <script setup>
 import { ref } from 'vue';
 import { reviews } from '../data/reviews.js';
+import { useRouter } from 'vue-router';
 
 const sortedReviews = ref([...reviews]);
 const sortDirection = ref('desc');
+
+
+
+const router = useRouter();
+
+
+const openReview = (id) => {
+  router.push(`/review/${id}`);
+};
 
 const toggleSort = () => {
   sortDirection.value = sortDirection.value === 'desc' ? 'asc' : 'desc';
@@ -32,7 +42,7 @@ const toggleSort = () => {
           </tr>
         </thead>
         <tbody>
-          <tr v-for="review in sortedReviews" :key="review.id">
+          <tr v-for="review in sortedReviews" :key="review.id" @click="openReview(review.id)" style="cursor: pointer">
             <td>{{ review.artist }} - {{ review.song_name }}</td>
             <td>{{ review.rating }}</td>
             <td>{{ review.year }}</td>

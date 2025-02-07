@@ -4,7 +4,6 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
-const max_reviews = reviews.slice(0, 6)
 
 const openReview = (id) => {
   router.push(`/review/${id}`);
@@ -14,7 +13,7 @@ const openReview = (id) => {
 <template>
   <div>
     <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
-      <div v-for="review in max_reviews" :key="review.id" class="col">
+      <div v-for="review in reviews" :key="review.id" class="col">
         <div class="card bg-review custom-card" @click="openReview(review.id)">
           <img :src="review.img" class="card-img-top" alt="Обложка">
           <div class="card-body">

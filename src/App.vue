@@ -46,12 +46,6 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/" class="menu-icons nav-link py-3">
-              <i class="menu-icons-size bi bi-pencil-square"></i>        
-              <span class="menu-label">Рецензии</span>
-            </router-link>
-          </li>
-          <li class="nav-item">
             <router-link to="/authors" class="menu-icons nav-link py-3">
               <i class="menu-icons-size bi bi-person-vcard-fill"></i>        
               <span class="menu-label">Авторы рецензий</span>
@@ -75,7 +69,7 @@
 
     <nav class="navbar navbar-dark bg-dark bg-review ms-10 mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="@/assets/rev-logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="/"><img src="@/assets/rev-logo.png" alt="logo"></a>
       </div>
     </nav>
 
