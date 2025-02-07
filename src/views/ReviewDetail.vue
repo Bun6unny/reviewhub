@@ -51,6 +51,7 @@ console.log(review)
 .review-detail {
     text-align: center;
     padding: 20px;
+    color: #FFF;
 }
 
 .review-img {
